@@ -19,6 +19,7 @@ import HooksPersonalizados from './components/HooksPersonalizados'
 import Referencias from './components/Referencias'
 import Formularios from './components/Formularios'
 import Estilos from './components/Estilos'
+import ComponentesEstilizados from './components/ComponentesEstilizados'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -91,6 +92,8 @@ function App() {
          <Formularios/>
          <hr />
          <Estilos />
+         <hr />
+         <ComponentesEstilizados />
       </section>
 
       <div className="card">
