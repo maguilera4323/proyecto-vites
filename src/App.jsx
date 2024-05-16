@@ -13,6 +13,11 @@ import {EventosES6, EventosES7, MasSobreEventos} from './components/Eventos'
 import AjaxApis from './components/AjaxApis'
 import ContadorHooks from './components/ContadorHooks'
 import ScrollHooks from './components/scrollHooks'
+import RelojHooks from './components/RelojHooks'
+import AjaxHooks from './components/AjaxHooks'
+import HooksPersonalizados from './components/HooksPersonalizados'
+import Referencias from './components/Referencias'
+import Formularios from './components/Formularios'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -73,6 +78,16 @@ function App() {
          <ContadorHooks/>
          <hr />
          <ScrollHooks/>
+         <hr />
+         <RelojHooks/>
+         <hr />
+         <AjaxHooks />
+         <hr />
+         <HooksPersonalizados/>
+         <hr />
+         <Referencias/>
+         <hr />
+         <Formularios/>
       </section>
 
       <div className="card">

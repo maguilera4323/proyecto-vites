@@ -67,7 +67,7 @@ export default class CicloVida extends Component{
         return(
             <>
                 <h2>Ciclo de Vida de los Componentes</h2>
-                {this.state.visible && <Reloj hora={this.state.hora}/>}
+                {this.state.visible && <Reloj hora={hour}/>}
                 <button onClick={this.iniciar}>Iniciar</button>
                 <button onClick={this.detener}>Detener</button>
             </>
